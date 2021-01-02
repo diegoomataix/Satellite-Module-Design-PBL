@@ -1,0 +1,19 @@
+Añadir:
+
+	- Regla para desactivar dientes cuando el tamaño es pequeño
+	- Edge fillet de los dientes
+	- Regla para modificar espesor a según del lado
+	- Uniones 
+	- Regla cambios según material + cambios material
+
+Arreglar:
+
+	- Vaciado Orthogrid	
+	- Asignar una profundidad al vaciado (dependiente tambn de la ley que modifica espesor)
+		que ayude a disminuir el peso de la bandeja
+		- Comprobar que cumplimos requisitos de peso
+	- Revisar casos extremos, que no falle nada de lo parametrizado
+
+Bonus:
+
+	- Análsis FEM (intentar hacer profundidad vaciados lo mayor posible), max reduccion de peso

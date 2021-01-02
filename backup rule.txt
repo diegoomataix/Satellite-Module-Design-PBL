@@ -1,0 +1,45 @@
+/*Rule created by diego 30/12/2020*/
+
+if M2_BAND_ang_diag == 60deg
+{
+	if M2_BAND_side < 70mm
+	{
+		PartBody\Pad.2\Activity = false
+		PartBody\CircPattern.1\Activity = false
+		PartBody\Remove.2\Activity = true
+		PartBody\EdgeFillet.1\Activity = false
+		PartBody\CircPattern.4\Activity = false
+	}
+	
+	else
+	{
+		PartBody\Pad.2\Activity = true
+		PartBody\CircPattern.1\Activity = true
+		PartBody\Remove.2\Activity = true
+		PartBody\EdgeFillet.1\Activity = true
+		PartBody\CircPattern.4\Activity = true
+	}
+}
+
+else
+{
+	if M2_BAND_side < 70mm
+	{
+		PartBody\Pad.2\Activity = false
+		PartBody\CircPattern.1\Activity = false
+		PartBody\Remove.2\Activity = false
+		PartBody\EdgeFillet.1\Activity = false
+		PartBody\CircPattern.4\Activity = false
+	}
+	
+	else
+	{
+		PartBody\Pad.2\Activity = true
+		PartBody\CircPattern.1\Activity = true
+		PartBody\Remove.2\Activity = true
+		PartBody\EdgeFillet.1\Activity = true
+		PartBody\CircPattern.4\Activity = true
+		
+	}
+}
+

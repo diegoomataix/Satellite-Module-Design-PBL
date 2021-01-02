@@ -6,12 +6,12 @@ Añadir:
 
 Arreglar:
 
-	- Radio de las esquinas interiores del vaciado de arriba de la bandeja debería pasar de 15mm en hexagono
-		a 0 mm (SOLO PARA LAS ESQUINAS QUE DEJAN DE SER ESQUINAS EN CUADRADO)
 	- Comprobar que vaciado reduce suficientemente el peso de la bandeja
 		- Comprobar que cumplimos los requisitos de peso (con vaciado + Al o sin vaciado + CFRP)
+	- Para Aviso Max size (aumentar max size de hexágono para tener en cuenta el chamfer)
 
 Constantemente:
+
 	- Revisar casos extremos, que no falle nada de lo parametrizado
 
 Bonus:

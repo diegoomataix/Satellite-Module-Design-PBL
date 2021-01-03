@@ -38,22 +38,27 @@ Every part will be parametrized independently and then all parameters will be se
 ### Products
 
 Bandeja
+
       21: 211
       211: Bandeja Módulo 2
 
 Pseudo-bandeja + ordenador
+
       22: 221
       221: Pseudo-bandeja + ordenador
       
 Separadores
+
       23: 231
       231: Separadores Módulo 2
 
 Paneles de cortadura
+
       24: 241
       241: Paneles de cortadura Módulo 2
 
 Paneles de cierre
+
       25: 251
       251: Paneles de cierre Módulo 2
 
@@ -61,24 +66,29 @@ Paneles de cierre
 ### Parts
 
 Bandeja
+
       211_01: Bandeja Módulo 2
       211_01_Parameters: Parameters Bandeja Módulo 2
 
 Pseudo-bandeja + ordenador
+
       221_01: Pseudo-bandeja
       221_02: Shock-absorbers
       221_03: Ordenador
       221_Parameters: Parameters Bandeja Módulo 2
       
 Separadores
+
       231_01: Separadores Módulo 2
       231_01_Parameters: Parameters Separadores Módulo 2
       
 Paneles de cortadura
+
       241_01: Paneles de cortadura Módulo 2
       241_01_Parameters: Parameters Paneles de cortadura Módulo 2
 
 Paneles de cierre
+
       251_01: Paneles de cierre Módulo 2
       251_01_Parameters: Parameters Paneles de cierre Módulo 2
       

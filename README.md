@@ -12,13 +12,13 @@ A part will be designed as follows:
 
 Where:
 
-      the first number design the module within the whole project
+      the first number refers to the module within the whole project
 
-      the second number desgin the subset within the module
+      the second number refers to  the subset within the module
 
-      the third number desgin the product within the subset
+      the third number refers to  the product within the subset
 
-      the two numbers after low bar enumerates the part within the product
+      the two numbers after the low bar indicate the part within the product
   
 ## About parametrization
 

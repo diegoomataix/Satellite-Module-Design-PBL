@@ -1,6 +1,6 @@
 # PBL - Satellite Module Design
  
-Designed with CATIA
+Designed with CATIA, Module 2: Computer and ODH
 
 
 

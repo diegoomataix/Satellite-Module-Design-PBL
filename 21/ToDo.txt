@@ -1,14 +1,27 @@
 Añadir:
 
-	- Edge fillet de los dientes
 	- Uniones 
-	- Regla cambios según material + cambios material
+	- Perfil en L para compuesto (en ved de los dientes)
+	- Helicoils
+	- Insertos para compuesto
 
 Arreglar:
 
 	- Comprobar que vaciado reduce suficientemente el peso de la bandeja
 		- Comprobar que cumplimos los requisitos de peso (con vaciado + Al o sin vaciado + CFRP)
-	- Para Aviso Max size (aumentar max size de hexágono para tener en cuenta el chamfer)
+	- Para dimensión del radio en hexagonal: aumentar max size de hexágono para tener en cuenta el chamfer 
+		(se puede hacer desde la ley de cambio de forma, no la de geometria!!!)
+	- Propriedades correctas para material compuesto en el catálogo de materiales
+	- Ver que hacer con dientes para tamanos pequenos, como hay que mantenerlos de 12x12 el espacio entre ellos
+		es muy pequeno en algunos casos
+		--> Usar uniones M3 en ved de M4 para esos tamanos? (o eran M3 ya? en ese caso hacerlos M2)
+		--> Parecen muy altas? Está bien? de nuevo, deberían ser de 12x12 como dijo Rafa
+	- Edge fillets vaciado hexagonal (que tengan sentido para manufacture)
+	- En los dientes, hay un edge fillet en los extremos que queda raro, como lo arreglamos? 
+		--> otro boolean? para eliminarlo después
+		--> editar sketch? pero como hacemos para que si haya edge fillets en los dientes de en medio? a mano?
+	- Intentar ganar algo de espacio en la bandeja para el ordenador? Reducir el margen entre el borde, los 
+		dientes y el vaciado interior de arriba
 
 Constantemente:
 

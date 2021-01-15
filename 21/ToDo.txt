@@ -7,11 +7,9 @@ Añadir:
 
 Arreglar:
 
-	- Comprobar que vaciado reduce suficientemente el peso de la bandeja
-		- Comprobar que cumplimos los requisitos de peso (con vaciado + Al o sin vaciado + CFRP)
-	- Para dimensión del radio en hexagonal: aumentar max size de hexágono para tener en cuenta el chamfer 
-		(se puede hacer desde la ley de cambio de forma, no la de geometria!!!)
-	- Propriedades correctas para material compuesto en el catálogo de materiales
+	%- Comprobar que vaciado reduce suficientemente el peso de la bandeja
+	%- Comprobar que cumplimos los requisitos de peso (con vaciado + Al o sin vaciado + CFRP)
+	
 	- Ver que hacer con dientes para tamanos pequenos, como hay que mantenerlos de 12x12 el espacio entre ellos
 		es muy pequeno en algunos casos
 		--> Usar uniones M3 en ved de M4 para esos tamanos? (o eran M3 ya? en ese caso hacerlos M2)
@@ -30,3 +28,5 @@ Constantemente:
 Bonus:
 
 	- Análsis FEM (intentar hacer profundidad vaciados lo mayor posible), max reduccion de peso
+
+

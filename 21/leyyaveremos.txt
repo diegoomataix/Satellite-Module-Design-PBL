@@ -1,0 +1,90 @@
+/*Controls the shape of the satellite*/
+if `211_01_Parameters\Geometria`  == "Hexagono" 
+{
+	if `211_01_Parameters\M2_Band_Material`  == "M2_Al_6061"
+	{	
+		
+`211_01\M2_BAND_ang_diag` = 60deg
+		`211_01\M2_BAND_instances`  = 6
+		`211_01\M2_BAND_Offset`  = 1
+		
+		/* Cambio Vaciado */
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Activity` = true
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Sketch.23\Activity` = true
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\EdgeFillet.10\Activity` = true
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\EdgeFillet.3\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Activity` = false
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Sketch.28\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Activity` = false 
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Sketch.26\Activity` = false
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\RectPattern.5\Activity` = false
+	}
+	else
+	{	
+		`211_01\M2_BAND_ang_diag` = 60deg
+		`211_01\M2_BAND_instances`  = 6
+		`211_01\M2_BAND_Offset`  = 1
+		
+		/* Cambio Vaciado */
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Activity` = false
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Sketch.23\Activity` = false
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\EdgeFillet.10\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\EdgeFillet.3\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Activity` = false
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Sketch.28\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Activity` = false 
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Sketch.26\Activity` = false
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\RectPattern.5\Activity` = false
+	}
+	
+}
+
+else
+{
+	if `211_01_Parameters\M2_Band_Material` =="M2_Al_6061"
+	{
+		`211_01\M2_BAND_ang_diag`  = 90deg
+		`211_01\M2_BAND_instances` = 4
+		
+		`211_01\M2_BAND_Offset`  = 2
+		
+		/* Cambio Vaciado */
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Activity` = false
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Sketch.23\Activity` = false
+		
+`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\EdgeFillet.10\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\EdgeFillet.3\Activity` = true
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Activity` = true
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Sketch.28\Activity` = true
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Activity` = true
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Sketch.26\Activity` = true
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\RectPattern.5\Activity` = true
+	}
+	else
+	{
+		`211_01\M2_BAND_ang_diag`  = 90deg
+		`211_01\M2_BAND_instances` = 4
+		
+		`211_01\M2_BAND_Offset`  = 2
+		
+		/* Cambio Vaciado */
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Activity` = false
+		`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\Pad.16\Sketch.23\Activity` = false
+		
+`211_01\PartBody\Vaciado_Hexagonal\OrthoIsoGrid.1\EdgeFillet.10\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\EdgeFillet.3\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Activity` = false
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.19\Sketch.28\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Activity` = false
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\Pad.18\Sketch.26\Activity` = false
+		
+		`211_01\PartBody\Vaciado_Cuadrado\OrthoGrid.1\RectPattern.5\Activity` = false
+	}
+}

@@ -34,6 +34,7 @@ Every part will be parametrized independently and then all parameters will be se
       23: Separadores
       24: Paneles de cortadura
       25: Paneles de cierre
+      26: Helicoils e insertos
 
 ### Products
 
@@ -62,12 +63,15 @@ Paneles de cierre
       25: 251
       251: Paneles de cierre Módulo 2
 
+Helicoils e insertos
+      26: 261
 
 ### Parts
 
 Bandeja
 
       211_01: Bandeja Módulo 2
+      211_02: Perfil en L para unión con panel de cierre
       211_01_Parameters: Parameters Bandeja Módulo 2
 
 Pseudo-bandeja + ordenador
@@ -92,5 +96,8 @@ Paneles de cierre
       251_01: Paneles de cierre Módulo 2
       251_01_Parameters: Parameters Paneles de cierre Módulo 2
       
+Helicoils e insertos
+      26_01: Inserto tipo I
+      26_02: Inserto tipo II
       
 More information is given in the description of each .CATIAPART as to avoid any confusion with the number scheme implemented. This will also show in the bill of materials which will make it easier to understand.

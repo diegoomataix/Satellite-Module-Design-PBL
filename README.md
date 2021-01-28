@@ -45,8 +45,11 @@ Bandeja
 
 Pseudo-bandeja + ordenador
 
-      22: 221
-      221: Pseudo-bandeja + ordenador
+      22: 221 + 222 + 223 + 224 
+      221: Pseudo-bandeja + insertos + Shock-absorbers
+      222: Tarjeta de comunicaciones externa 
+      223: Ordenador (Opcion B ISIS)
+      224: Ordenador (Opción A) 
       
 Separadores
 
@@ -77,10 +80,20 @@ Bandeja
 Pseudo-bandeja + ordenador
 
       221_01: Pseudo-bandeja
-      221_02: Shock-absorbers
-      221_03: Ordenador
+      221_02: Insertos pasantes M4
+      221_03: Insertos ciegos M3
+      221_04: Shock-absorbers
       221_Parameters: Parameters Bandeja Módulo 2
-      
+      -------------------------
+      222_01: Caja 
+      221_02 Tapa 
+      ----------------------
+      223_01: Caja 
+      223_02: Tapa 
+      223_03: Ordenador (Opcion B)
+      ----------------------------
+      224: Ordenador (opcion A)
+     
 Separadores
 
       231_01: Separadores Módulo 2

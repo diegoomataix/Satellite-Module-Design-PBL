@@ -1,21 +1,16 @@
 Añadir:
 
-	- Perfil en L para compuesto (en ved de los dientes)
 	- Helicoils con la pseudabandeja
 	- Insertos para compuesto
 	- Tornillos
-	- Chamfer en hueco para cableado
-	- En 300mm en cuadrado falla
-	- Hexagono 330mm falla
+	- Cableado
+
 
 Arreglar:
 
-	- La movida de los dientes
-		- SE HACE UNA MUESCA A TAMANOS PEQUENOS ORDENADOR
-		- Hay que quitar lo que sobra
 	- Chamfers, edge fillets que se pueda fabricar
-	- Anadir compuesto
-	- Arreglar uniones verticales con paneles de cierre
+
+
 
 Constantemente:
 
